@@ -1,4 +1,4 @@
-### Textsummarization-using-nlp-with-flask-and-python" 
+# Textsummarization-using-nlp-with-flask-and-python" 
 
 A person uses the internet to access information available globally. While doing so, he uses
 many cloud services, with or without his knowledge, while using various websites. A person
@@ -15,6 +15,6 @@ automatic cloud based text summarizer is vital towards reducing human effort. A 
 summarizer helps to provide a user flexibility and portability due to the ability of being able to
 use it anywhere, anytime.
 
-# Output Pic
+## Output Pic
 
 ![outputpic](https://user-images.githubusercontent.com/57168006/88424258-15a8c700-cda2-11ea-8f3a-f66d7f8b278a.PNG)
