@@ -1,0 +1,175 @@
+DateStamp=2020-03-19T18:54, Name=bb, Surname=njj, Email=jk 
+DateStamp=2020-03-19T19:08, Input=bb 
+DateStamp=2020-03-19T19:09, Input=bb 
+DateStamp=2020-03-19T19:09, Input=bb 
+DateStamp=2020-03-19T19:09, Input=Pv Athira 
+DateStamp=2020-03-19T19:11, Input=Pv Athira 
+DateStamp=2020-03-19T19:13, Input=Pv Athira 
+DateStamp=2020-03-19T19:13, Input=hhxgchzxj 
+DateStamp=2020-03-19T19:13, Input=hhxgchzxj 
+DateStamp=2020-03-19T19:13, Input=hfhj 
+DateStamp=2020-03-19T19:15, Input=hfhj 
+DateStamp=2020-03-19T19:15, Input=hello 
+DateStamp=2020-03-19T19:17, Input=hello,Output=After summarization 
+DateStamp=2020-03-19T19:17, Input=hello,Output=After summarization 
+DateStamp=2020-03-19T19:17, Input=hello,Output=After summarization 
+DateStamp=2020-03-19T19:19, Input=hello,Output=After summarization 
+DateStamp=2020-03-19T19:22, Input=hello,Output=0.8509035245341184 
+DateStamp=2020-03-19T19:25, Input=hello,Output=Hello 
+DateStamp=2020-03-19T19:29, Input=hel,Output=Hel 
+DateStamp=2020-03-19T19:29, Input=thiy,Output=Thiy 
+DateStamp=2020-03-19T19:31, Input=hello,Output=HELLO 
+DateStamp=2020-03-19T19:31, Input=Python has a set of built-in methods that you can use on strings.
+
+Note: All string methods returns new values. They do not change the original string,Output=PYTHON HAS A SET OF BUILT-IN METHODS THAT YOU CAN USE ON STRINGS.
+
+NOTE: ALL STRING METHODS RETURNS NEW VALUES. THEY DO NOT CHANGE THE ORIGINAL STRING 
+DateStamp=2020-03-21T02:04, Input=his module provides regular expression matching operations similar to those found in Perl.
+
+Both patterns and strings to be searched can be Unicode strings as well as 8-bit strings. However, Unicode strings and 8-bit strings cannot be mixed: that is, you cannot match an Unicode string with a byte pattern or vice-versa; similarly, when asking for a substitution, the replacement string must be of the same type as both the pattern and the search string.
+
+Regular expressions use the backslash character ('\') to indicate special forms or to allow special characters to be used without invoking their special meaning. This collides with Python’s usage of the same character for the same purpose in string literals; for example, to match a literal backslash, one might have to write '\\\\' as the pattern string, because the regular expression must be \\, and each backslash must be expressed as \\ inside a regular Python string literal.
+
+The solution is to use Python’s raw string notation for regular expression patterns; backslashes are not handled in any special way in a string literal prefixed with 'r'. So r"\n" is a two-character string containing '\' and 'n', while "\n" is a one-character string containing a newline. Usually patterns will be expressed in Python code using this raw string notation.
+,Output=HIS MODULE PROVIDES REGULAR EXPRESSION MATCHING OPERATIONS SIMILAR TO THOSE FOUND IN PERL.
+
+BOTH PATTERNS AND STRINGS TO BE SEARCHED CAN BE UNICODE STRINGS AS WELL AS 8-BIT STRINGS. HOWEVER, UNICODE STRINGS AND 8-BIT STRINGS CANNOT BE MIXED: THAT IS, YOU CANNOT MATCH AN UNICODE STRING WITH A BYTE PATTERN OR VICE-VERSA; SIMILARLY, WHEN ASKING FOR A SUBSTITUTION, THE REPLACEMENT STRING MUST BE OF THE SAME TYPE AS BOTH THE PATTERN AND THE SEARCH STRING.
+
+REGULAR EXPRESSIONS USE THE BACKSLASH CHARACTER ('\') TO INDICATE SPECIAL FORMS OR TO ALLOW SPECIAL CHARACTERS TO BE USED WITHOUT INVOKING THEIR SPECIAL MEANING. THIS COLLIDES WITH PYTHON’S USAGE OF THE SAME CHARACTER FOR THE SAME PURPOSE IN STRING LITERALS; FOR EXAMPLE, TO MATCH A LITERAL BACKSLASH, ONE MIGHT HAVE TO WRITE '\\\\' AS THE PATTERN STRING, BECAUSE THE REGULAR EXPRESSION MUST BE \\, AND EACH BACKSLASH MUST BE EXPRESSED AS \\ INSIDE A REGULAR PYTHON STRING LITERAL.
+
+THE SOLUTION IS TO USE PYTHON’S RAW STRING NOTATION FOR REGULAR EXPRESSION PATTERNS; BACKSLASHES ARE NOT HANDLED IN ANY SPECIAL WAY IN A STRING LITERAL PREFIXED WITH 'R'. SO R"\N" IS A TWO-CHARACTER STRING CONTAINING '\' AND 'N', WHILE "\N" IS A ONE-CHARACTER STRING CONTAINING A NEWLINE. USUALLY PATTERNS WILL BE EXPRESSED IN PYTHON CODE USING THIS RAW STRING NOTATION.
+ 
+DateStamp=2020-03-21T02:21, Input= 8i8u      ,Output= 8I8U       
+DateStamp=2020-03-21T02:23, Input= 8i8u      ,Output= 8I8U       
+DateStamp=2020-03-26T00:06, Input=
+the difference is that the module "requests" is to make requests ,Output=
+THE DIFFERENCE IS THAT THE MODULE "REQUESTS" IS TO MAKE REQUESTS  
+DateStamp=2020-03-26T00:07, Input=
+the difference is that the module "requests" is to make requests ,Output=
+THE DIFFERENCE IS THAT THE MODULE "REQUESTS" IS TO MAKE REQUESTS  
+DateStamp=2020-03-26T00:07, Input=
+the difference is that the module "requests" is to make requests ,Output=
+THE DIFFERENCE IS THAT THE MODULE "REQUESTS" IS TO MAKE REQUESTS  
+DateStamp=2020-03-26T00:19, Input=iku bio,Output=IKU BIO 
+DateStamp=2020-03-26T00:20, Input=g guo 
+
+
+
+
+
+yg8i,Output=G GUO 
+
+
+
+
+
+YG8I 
+DateStamp=2020-03-27T20:11, Input=Reading Time  minutes
+In this blog we will learn about the different type of text summarization methods and at the end we will see a practical of the same,Output= 
+DateStamp=2020-03-27T20:11, Input=Reading Time  minutes
+In this blog we will learn about the different type of text summarization methods and at the end we will see a practical of the same,Output= 
+DateStamp=2020-03-27T20:11, Input=from nltkclusterutil import cosinedistance
+from nltkcorpus import stopwords
+import numpy as np
+import networkx as nx
+ Generate clean sentences
+def readarticlefilename
+    file  openfilename r
+    filedata  filereadlines
+    article  filedatasplit 
+    sentences  
+   for sentence in article
+     printsentence
+     sentencesappendsentencereplaceazAZ  split 
+     sentencespop 
+    
+    return sentences,Output=from nltk.cluster.util import cosine_distance
+from nltk.corpus import stopwords
+import numpy as np
+import networkx as nx
+2. 
+DateStamp=2020-03-27T22:45, Input=yu ,Output= 
+DateStamp=2020-03-27T22:47, Input=yu ,Output= 
+DateStamp=2020-03-27T22:47, Input=reh,Output= 
+DateStamp=2020-03-27T22:47, Input=rtyvu 
+chtcrioli rh,Output= 
+DateStamp=2020-03-27T22:48, Input=india is my country,Output= 
+DateStamp=2020-03-27T22:52, Input=india is my country,Output=i n d i a   i s   m y   c o u n t r y 
+DateStamp=2020-03-27T22:52, Input=fdb,Output=f d b 
+DateStamp=2020-03-27T22:52, Input=
+                                        Hi Im Amal Data Science Engineer
+                                            with a background in ICT Engineering Computer  Network Security specialization who loves building AI products
+                                        Ive been developed a lot of AI apps using Deep and Machine Learning that lets automatic and fast analysis happens 
+                                        Im interested in applying Machine Learning in Big Data NLP Cybersecurity and any data related domain
+                                            Id love to combine my passion for AI with my software
+                                            development skills to continue building personalized AI products for people,Output= 
+DateStamp=2020-03-27T22:53, Input=Then this application we will be building will help you set up a simple solution for your challenge We will call this app Summaryzer Web AppIn this tutorial we will be building a TextDocument Summarizer web application with flask and some great NLP packages such as SpaCyNLTKGensim and Sumy,Output= 
+DateStamp=2020-03-27T23:10, Input=Then this application we will be building will help you set up a simple solution for your challenge We will call this app Summaryzer Web AppIn this tutorial we will be building a TextDocument Summarizer web application with flask and some great NLP packages such as SpaCyNLTKGensim and Sumy,Output=Then this application we will be building will help you set up a simple solution for your challenge. 
+DateStamp=2020-03-27T23:10, Input=Creating your first Web App for text summarization and deploy it with PythonAnywhere,Output= 
+DateStamp=2020-03-27T23:11, Input=Creating your first Web App for text summarization and deploy it with PythonAnywhere,Output= 
+DateStamp=2020-03-27T23:11, Input=Creating your first Web App for text summarization and deploy it with Python Anywhere,Output= 
+DateStamp=2020-03-27T23:11, Input=Creating your first Web App for text summarization and deploy it with Python Anywhere,Output= 
+DateStamp=2020-03-27T23:13, Input=In an attempt to build an AIready workforce Microsoft announced Intelligent Cloud Hub which has been launched to empower the next generation of students with AIready skills Envisioned as a threeyear collaborative program Intelligent Cloud Hub will support around  institutions with AI infrastructure course content and curriculum developer support development tools and give students access to cloud and AI services As part of the program the Redmond giant which wants to expand its reach and is planning to build a strong developer ecosystem in India with the program will set up the core AI infrastructure and IoT Hub for the selected campuses The company will provide AI development tools and Azure AI services such as Microsoft Cognitive Services Bot Services and Azure Machine LearningAccording to Manish Prakash Country General ManagerPS Health and Education Microsoft India said With AI being the defining technology of our time it is transforming lives and industry and the jobs of tomorrow will require a different skillset This will require more collaborations and training and working with AI Thats why it has become more critical than ever for educational institutions to integrate new cloud and AI technologies The program is an attempt to ramp up the institutional setup and build capabilities among the educators to educate the workforce of tomorrow The program aims to build up the cognitive skills and indepth understanding of developing intelligent cloud connected solutions for applications across industry Earlier in April this year the company announced Microsoft Professional Program In AI as a learning track open to the public The program was developed to provide job ready skills to programmers who wanted to hone their skills in AI and data science with a series of online courses which featured handson labs and expert instructors as well This program also included developerfocused AI school that provided a bunch of assets to help build AI skills,Output=Envisioned as a three-year collaborative program, Intelligent Cloud Hub will support around 100 institutions with AI infrastructure, course content and curriculum, developer support, development tools and give students access to cloud and AI services. As part of the program, the Redmond giant which wants to expand its reach and is planning to build a strong developer ecosystem in India with the program will set up the core AI infrastructure and IoT Hub for the selected campuses. The program is an attempt to ramp up the institutional set-up and build capabilities among the educators to educate the workforce of tomorrow." Earlier in April this year, the company announced Microsoft Professional Program In AI as a learning track open to the public. The program was developed to provide job ready skills to programmers who wanted to hone their skills in AI and data science with a series of online courses which featured hands-on labs and expert instructors as well. This program also included developer-focused AI school that provided a bunch of assets to help build AI skills. 
+DateStamp=2020-07-24T22:25, Input=Text summarization simply means the technique of shortening the long pieces of text The
+intention is to create a systematic and fluent summary having only the main points outlined in the
+document With such a big amount of data circulating in the digital space there is a need to
+develop machine learning algorithms that can automatically shorten longer texts and deliver
+accurate summaries that can fluently pass the intended messages in very less time Text
+summarization methods are greatly needed to address the evergrowing amount of text data
+available online to both better help discover relevant information and to consume relevant
+information faster Now in order for the application to have maximum reach and be easily
+available to everyone it has to be online Hence in this project we have created a cloud based
+summarization website that provides a summarized report of the input text and which is cloud
+hosted to attain the services of cloud,Output=The
+intention is to create a systematic and fluent summary having only the main points outlined in the
+document. Text
+summarization methods are greatly needed to address the ever-growing amount of text data
+available online to both better help discover relevant information and to consume relevant
+information faster. Hence, in this project, we have created a cloud based
+summarization website that provides a summarized report of the input text and which is cloud
+hosted to attain the services of cloud. 
+DateStamp=2020-07-24T22:27, Input=A person uses the internet to access information available globally While doing so he uses
+many cloud services with or without his knowledge while using various websites A person
+may be looking for precise and summarized data rather than huge documents of information
+Due to an exponential growth in the generation of textual data the need for tools and
+mechanisms for automatic summarization of documents has become very critical Text
+documents are vital to any organizations daytoday working and as such long documents often
+hamper trivial work Most of the text resources such as books news articles blog posts research
+papers emails and tweets present on the internet have repetitive content which is vestigial to the
+daytoday user Tremendous amounts of information is available on the internet it is important
+to develop a mechanism to extract concise and meaningful summary of text from multiple text
+resources quickly and most efficiently from document files and websites Therefore an
+automatic cloud based text summarizer is vital towards reducing human effort A cloud based
+summarizer helps to provide a user flexibility and portability due to the ability of being able to
+use it anywhere anytime,Output=A person
+may be looking for precise and summarized data, rather than huge documents of information. Due to an exponential growth in the generation of textual data, the need for tools and
+mechanisms for automatic summarization of documents has become very critical. Text
+documents are vital to any organization's day-to-day working and as such, long documents often
+hamper trivial work. Therefore, an
+automatic cloud based text summarizer is vital towards reducing human effort. A cloud based
+summarizer helps to provide a user flexibility and portability due to the ability of being able to
+use it anywhere, anytime. 
+DateStamp=2020-07-24T22:34, Input=A person uses the internet to access information available globally While doing so he uses
+many cloud services with or without his knowledge while using various websites A person
+may be looking for precise and summarized data rather than huge documents of information
+Due to an exponential growth in the generation of textual data the need for tools and
+mechanisms for automatic summarization of documents has become very critical Text
+documents are vital to any organizations daytoday working and as such long documents often
+hamper trivial work Most of the text resources such as books news articles blog posts research
+papers emails and tweets present on the internet have repetitive content which is vestigial to the
+daytoday user Tremendous amounts of information is available on the internet it is important
+to develop a mechanism to extract concise and meaningful summary of text from multiple text
+resources quickly and most efficiently from document files and websites Therefore an
+automatic cloud based text summarizer is vital towards reducing human effort A cloud based
+summarizer helps to provide a user flexibility and portability due to the ability of being able to
+use it anywhere anytime,Output=A person
+may be looking for precise and summarized data, rather than huge documents of information. Due to an exponential growth in the generation of textual data, the need for tools and
+mechanisms for automatic summarization of documents has become very critical. Text
+documents are vital to any organization's day-to-day working and as such, long documents often
+hamper trivial work. Therefore, an
+automatic cloud based text summarizer is vital towards reducing human effort. A cloud based
+summarizer helps to provide a user flexibility and portability due to the ability of being able to
+use it anywhere, anytime. 
+DateStamp=2020-07-24T22:35, Input=A person may be looking for precise and summarized data rather than huge documents of information Due to an exponential growth in the generation of textual data the need for tools and mechanisms for automatic summarization of documents has become very critical Text documents are vital to any organizations daytoday working and as such long documents often hamper trivial work Therefore an automatic cloud based text summarizer is vital towards reducing human effort A cloud based summarizer helps to provide a user flexibility and portability due to the ability of being able to use it anywhere anytime,Output=A person may be looking for precise and summarized data, rather than huge documents of information. Therefore, an automatic cloud based text summarizer is vital towards reducing human effort. A cloud based summarizer helps to provide a user flexibility and portability due to the ability of being able to use it anywhere, anytime. 
+DateStamp=2020-07-24T22:35, Input= A person may be looking for precise and summarized data rather than huge documents of information Therefore an automatic cloud based text summarizer is vital towards reducing human effort A cloud based summarizer helps to provide a user flexibility and portability due to the ability of being able to use it anywhere anytime,Output=Therefore, an automatic cloud based text summarizer is vital towards reducing human effort. 
+DateStamp=2020-07-24T22:36, Input= A person may be looking for precise and summarized data rather than huge documents of information Therefore an automatic cloud based text summarizer is vital towards reducing human effort A cloud based summarizer helps to provide a user flexibility and portability due to the ability of being able to use it anywhere anytime,Output=Therefore, an automatic cloud based text summarizer is vital towards reducing human effort. 

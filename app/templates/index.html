@@ -1,0 +1,120 @@
+<html>
+  <head>
+     <title>Text Sumarization</title>
+     <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+		 body{
+    background-image: url('/static/6.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    }
+   button {
+      display: inline-block;
+      background-color: brown;
+      border-radius: 10px;
+      border: 4px double #cccccc;
+      color: #eeeeee;
+      text-align: center;
+      font-size: 28px;
+      
+      width: 200px;
+      height:60px;
+ 
+      cursor: pointer;
+      margin: 5px;
+      }
+      button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      
+      }
+      button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      
+      }
+      button:hover {
+      background-color: #39edd8;
+      }
+      button:hover span {
+      padding-right: 25px;
+      }
+      button:hover span:after {
+      opacity: 1;
+      right: 0;
+      }
+     
+    </style>
+  </head>
+  <body>
+
+    <div class="container"><br>
+   
+       <center>  
+		<div style="width:500px;height:120px;border:1px solid #000;background-color:lightblue">
+		 
+     <h2> <rect x="50" y="80" rx="20" ry="20" width="300" height="150"
+      style="fill:red;stroke:black;stroke-width:5;opacity:0.5" >
+   <p><img src="/static/4.jpg" alt="book"  style="float:left" width="140" height="120">
+      <font text-shadow= "2px 2px 8px #FF0000" face="Impact" color="green" size="24"  >Text Sumarization</font></p>
+      </rect>
+      </h2>
+      </div>
+      </center> 
+    </div>
+
+    <div class=container"><br>
+    <div class="row align-items-center justify-content-center">
+    <div class="col-md-4">
+      <form  action="" method="post" role="form">
+        {{ form.csrf }}
+        <div class="form-group">
+
+          <label for="name" ><font face="Verdana" color="white" size="4"><b>Enter the Input text in English to be Summarized:</b></font></label>
+          <textarea class="form-control" id="name" name="name" placeholder="Enter text to be sumarized" cols="50" rows="10"></textarea>
+          
+	</div>													   
+
+        <center>
+          <button type="submit"  ><span>Submit</span></button>
+        </center>
+      </form>
+
+      <br>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+
+        {% for message in messages %}
+            {% if "Error" not in message[1]: %}
+                <div class="alert alert-info">
+                <strong>Sumarized text : </strong> {{ message[1] }}
+                </div>
+            {% endif %}
+
+            {% if "Error" in message[1]: %}
+                <div class="alert alert-danger">
+                <strong>Error: </strong> {{ message[1] }}
+                </div>
+            {% endif %}
+        {% endfor %}
+            {% endif %}
+        {% endwith %}
+     <p align="center">
+		<button ><a href="{{url_for('download_file')}}">Download</a></button>
+	</p>
+    </div>
+    <br>
+    </div>
+    </div>
+    
+  </body>
+</html>
